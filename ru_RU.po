@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: YOURLS 1.10.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-31 13:52+0000\n"
-"PO-Revision-Date: 2025-10-26 12:23+0300\n"
+"PO-Revision-Date: 2025-10-26 12:46+0300\n"
 "Last-Translator: Gemini <gemini@google.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru_RU\n"
@@ -630,7 +630,7 @@ msgstr "Свой короткий URL"
 
 #: includes/functions-html.php:196
 msgid "Optional "
-msgstr "Необязательно "
+msgstr "Необязательно"
 
 #: includes/functions-html.php:199
 msgid "Shorten The URL"
@@ -1120,21 +1120,17 @@ msgstr "Ноя"
 msgid "Dec_December_abbreviation"
 msgstr "Дек"
 
-#: includes/functions-l10n.php:835
-msgid "am"
-msgstr "am"
-
 #: includes/functions-l10n.php:836
 msgid "pm"
-msgstr "pm"
+msgstr ""
 
 #: includes/functions-l10n.php:837
 msgid "AM"
-msgstr "AM"
+msgstr ""
 
 #: includes/functions-l10n.php:838
 msgid "PM"
-msgstr "PM"
+msgstr ""
 
 #: includes/functions-l10n.php:844
 msgid "number_format_thousands_sep"
@@ -1308,7 +1304,7 @@ msgstr "Общая статистика для дубликатов коротк
 
 #: yourls-infos.php:243 yourls-infos.php:254
 msgid "Traffic statistics"
-msgstr "Статистика трафика"
+msgstr "Статистика"
 
 #: yourls-infos.php:244 yourls-infos.php:441
 msgid "Traffic location"
