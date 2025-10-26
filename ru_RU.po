@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: YOURLS 1.10.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-31 13:52+0000\n"
-"PO-Revision-Date: 2025-10-26 12:46+0300\n"
+"PO-Revision-Date: 2025-10-26 14:03+0300\n"
 "Last-Translator: Gemini <gemini@google.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru_RU\n"
@@ -593,7 +593,7 @@ msgstr "Вы успешно вышли"
 
 #: includes/functions-auth.php:119
 msgid "Invalid username or password"
-msgstr "Неверное имя пользователя или пароль"
+msgstr "Неверные логин или пароль"
 
 #: includes/functions-auth.php:121
 msgid "Please log in"
@@ -740,7 +740,7 @@ msgstr "Поиск"
 
 #: includes/functions-html.php:311
 msgid "Clear"
-msgstr "Очистить"
+msgstr "Отмена"
 
 #: includes/functions-html.php:331
 #, php-format
@@ -846,7 +846,7 @@ msgstr "Действия"
 
 #: includes/functions-html.php:763
 msgid "Username"
-msgstr "Имя пользователя"
+msgstr "Логин"
 
 #: includes/functions-html.php:767
 msgid "Password"
@@ -1122,15 +1122,15 @@ msgstr "Дек"
 
 #: includes/functions-l10n.php:836
 msgid "pm"
-msgstr ""
+msgstr "pm"
 
 #: includes/functions-l10n.php:837
 msgid "AM"
-msgstr ""
+msgstr "AM"
 
 #: includes/functions-l10n.php:838
 msgid "PM"
-msgstr ""
+msgstr "PM"
 
 #: includes/functions-l10n.php:844
 msgid "number_format_thousands_sep"
