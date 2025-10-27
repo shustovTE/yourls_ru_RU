@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: YOURLS 1.10.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-07-31 13:52+0000\n"
-"PO-Revision-Date: 2025-10-26 14:03+0300\n"
+"PO-Revision-Date: 2025-10-27 20:23+0300\n"
 "Last-Translator: Gemini <gemini@google.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru_RU\n"
@@ -54,7 +54,7 @@ msgstr ""
 #, php-format
 msgid "counting <strong>1</strong> click"
 msgid_plural "counting <strong>%s</strong> clicks"
-msgstr[0] "засчитан <strong>1</strong> клик"
+msgstr[0] "засчитан <strong>%s</strong> клик"
 msgstr[1] "засчитано <strong>%s</strong> клика"
 msgstr[2] "засчитано <strong>%s</strong> кликов"
 
@@ -70,468 +70,6 @@ msgstr ""
 #: admin/index.php:318
 msgid "No URL"
 msgstr "Нет URL"
-
-#: admin/install.php:12
-msgid "PHP extension for PDO not found"
-msgstr "Расширение PHP для PDO не найдено"
-
-#: admin/install.php:17 admin/install.php:22
-#, php-format
-msgid "%s version is too old. Ask your server admin for an upgrade."
-msgstr ""
-"Версия %s слишком старая. Попросите администратора сервера обновить ее."
-
-#: admin/install.php:28
-msgid "YOURLS already installed."
-msgstr "YOURLS уже установлен."
-
-#: admin/install.php:39
-msgid "File <tt>.htaccess</tt> successfully created/updated."
-msgstr "Файл <tt>.htaccess</tt> успешно создан/обновлен."
-
-#: admin/install.php:41
-msgid ""
-"Could not write file <tt>.htaccess</tt> in YOURLS root directory. You will "
-"have to do it manually. See <a href=\"http://yourls.org/htaccess\">how</a>."
-msgstr ""
-"Не удалось записать файл <tt>.htaccess</tt> в корневой каталог YOURLS. Вам "
-"придется сделать это вручную. Cм. <a href=\"http://yourls.org/"
-"htaccess\">инструкцию</a>."
-
-#: admin/install.php:54 admin/install.php:75
-msgid "Install YOURLS"
-msgstr "Установить YOURLS"
-
-#: admin/install.php:78
-msgid "YOURLS Administration Page"
-msgstr "Страница администрирования YOURLS"
-
-#: admin/plugins.php:40
-msgid "Unsupported action"
-msgstr "Неподдерживаемое действие"
-
-#: admin/plugins.php:44
-msgid "No plugin specified, or not a valid plugin"
-msgstr "Плагин не указан, или это неверный плагин"
-
-#: admin/plugins.php:53
-msgid "Plugin has been activated"
-msgstr "Плагин был активирован"
-
-#: admin/plugins.php:55
-msgid "Plugin has been deactivated"
-msgstr "Плагин был деактивирован"
-
-#: admin/plugins.php:60 includes/functions-html.php:824
-msgid "Manage Plugins"
-msgstr "Управление плагинами"
-
-#: admin/plugins.php:66
-msgid "Plugins"
-msgstr "Плагины"
-
-#: admin/plugins.php:73
-#, php-format
-msgid "%s plugin"
-msgid_plural "%s plugins"
-msgstr[0] "%s плагин"
-msgstr[1] "%s плагина"
-msgstr[2] "%s плагинов"
-
-#: admin/plugins.php:77
-#, php-format
-msgid ""
-"You currently have <strong>%1$s</strong> installed, and <strong>%2$s</"
-"strong> activated"
-msgstr ""
-"У вас установлено <strong>%1$s</strong>, и активировано <strong>%2$s</strong>"
-
-#: admin/plugins.php:82
-msgid "Plugin Name"
-msgstr "Название плагина"
-
-#: admin/plugins.php:83
-msgid "Version"
-msgstr "Версия"
-
-#: admin/plugins.php:84
-msgid "Description"
-msgstr "Описание"
-
-#: admin/plugins.php:85
-msgid "Author"
-msgstr "Автор"
-
-#: admin/plugins.php:86
-msgid "Action"
-msgstr "Действие"
-
-#: admin/plugins.php:111
-msgid "(no info)"
-msgstr "(нет данных)"
-
-#: admin/plugins.php:121
-msgid "Deactivate"
-msgstr "Деактивировать"
-
-#: admin/plugins.php:125
-msgid "Activate"
-msgstr "Активировать"
-
-#: admin/plugins.php:136
-#, php-format
-msgid "plugin file location: %s"
-msgstr "расположение файла плагина: %s"
-
-#: admin/plugins.php:153
-msgid "Toggle active/inactive plugins"
-msgstr "Переключить активные/неактивные плагины"
-
-#: admin/plugins.php:160
-msgid ""
-"If something goes wrong after you activate a plugin and you cannot use "
-"YOURLS or access this page, simply rename or delete its directory, or rename "
-"the plugin file to something different than <code>plugin.php</code>."
-msgstr ""
-"Если что-то пойдет не так после активации плагина, и вы не сможете "
-"использовать YOURLS или войти на эту страницу, просто переименуйте или "
-"удалите его каталог, или переименуйте файл плагина во что-то отличное от "
-"<code>plugin.php</code>."
-
-#: admin/plugins.php:162
-msgid "More plugins"
-msgstr "Больше плагинов"
-
-#: admin/plugins.php:164
-msgid ""
-"For more plugins, head to the official <a href=\"http://yourls.org/"
-"awesome\">Plugin list</a>."
-msgstr ""
-"Больше плагинов вы найдете в официальном <a href=\"http://yourls.org/"
-"awesome\">списке плагинов</a>."
-
-#: admin/tools.php:6
-msgid "Cool YOURLS Tools"
-msgstr "Классные инструменты YOURLS"
-
-#: admin/tools.php:13
-msgid "Bookmarklets"
-msgstr "Букмарклеты"
-
-#: admin/tools.php:15
-msgid ""
-"YOURLS comes with handy <span>bookmarklets</span> for easier link shortening "
-"and sharing."
-msgstr ""
-"YOURLS поставляется с удобными <span>букмарклетами</span> для легкого "
-"сокращения ссылок и обмена ими."
-
-#: admin/tools.php:17
-msgid "Standard or Instant, Simple or Custom"
-msgstr "Стандартные или мгновенные, простые или настраиваемые"
-
-#: admin/tools.php:20
-msgid ""
-"The <span>Standard Bookmarklets</span> will take you to a page where you can "
-"easily edit or delete your brand new short URL."
-msgstr ""
-"<span>Стандартные букмарклеты</span> перенесут вас на страницу, где вы "
-"сможете легко отредактировать или удалить вашу новую короткую ссылку."
-
-#: admin/tools.php:22
-msgid ""
-"The <span>Instant Bookmarklets</span> will pop the short URL without leaving "
-"the page you are viewing (depending on the page and server configuration, "
-"they may silently fail)"
-msgstr ""
-"<span>Мгновенные букмарклеты</span> покажут короткий URL во всплывающем "
-"окне, не покидая просматриваемой страницы (в зависимости от страницы и "
-"конфигурации сервера, они могут не сработать без уведомления)"
-
-#: admin/tools.php:24
-msgid ""
-"The <span>Simple Bookmarklets</span> will generate a short URL with a random "
-"or sequential keyword."
-msgstr ""
-"<span>Простые букмарклеты</span> создадут короткий URL со случайным или "
-"последовательным ключевым словом."
-
-#: admin/tools.php:26
-msgid ""
-"The <span>Custom Keyword Bookmarklets</span> will prompt you for a custom "
-"keyword first."
-msgstr ""
-"<span>Настраиваемые букмарклеты</span> сначала запросят у вас желаемое "
-"ключевое слово."
-
-#: admin/tools.php:30
-msgid ""
-"If you want to share a description along with the link you're shortening, "
-"simply <span>select text</span> on the page you're viewing before clicking "
-"on your bookmarklet link"
-msgstr ""
-"Если вы хотите поделиться описанием вместе с сокращаемой ссылкой, просто "
-"<span>выделите текст</span> на странице перед нажатием на букмарклет"
-
-#: admin/tools.php:33
-msgid ""
-"<strong>Important Note:</strong> bookmarklets <span>may fail</span> on "
-"websites with <em>https</em>, especially the \"Instant\" bookrmarklets. "
-"There is nothing you can do about this."
-msgstr ""
-"<strong>Важное примечание:</strong> букмарклеты <span>могут не работать</"
-"span> на сайтах с <em>https</em>, особенно \"Мгновенные\". С этим ничего "
-"нельзя поделать."
-
-#: admin/tools.php:35
-msgid "The Bookmarklets"
-msgstr "Букмарклеты"
-
-#: admin/tools.php:39 admin/tools.php:188
-msgid "Click and drag links to your toolbar (or right-click and bookmark it)"
-msgstr ""
-"Нажмите и перетащите ссылки на вашу панель инструментов (или щелкните правой "
-"кнопкой мыши и добавьте в закладки)"
-
-#: admin/tools.php:45
-msgid "Standard (new page)"
-msgstr "Стандартный (новая страница)"
-
-#: admin/tools.php:46
-msgid "Instant (popup)"
-msgstr "Мгновенный (всплывающее окно)"
-
-#: admin/tools.php:51
-msgid "Simple"
-msgstr "Простой"
-
-#: admin/tools.php:82
-msgid "Shorten"
-msgstr "Сократить"
-
-#: admin/tools.php:107
-msgid "Instant Shorten"
-msgstr "Мгновенно сократить"
-
-#: admin/tools.php:113
-msgid "Custom Keyword"
-msgstr "Свой ключ"
-
-#: admin/tools.php:148
-msgid "Custom shorten"
-msgstr "Сократить с ключом"
-
-#: admin/tools.php:176
-msgid "Instant Custom Shorten"
-msgstr "Мгновенно сократить с ключом"
-
-#: admin/tools.php:185
-msgid "Social Bookmarklets"
-msgstr "Социальные букмарклеты"
-
-#: admin/tools.php:187
-msgid "Create a short URL and share it on social networks, all in one click!"
-msgstr ""
-"Создайте короткий URL и поделитесь им в социальных сетях, все в один клик!"
-
-#: admin/tools.php:190
-msgid "Shorten and share:"
-msgstr "Сократить и поделиться:"
-
-#: admin/tools.php:215
-msgid "YOURLS &amp; Facebook"
-msgstr "YOURLS &amp; Facebook"
-
-#: admin/tools.php:246
-msgid "YOURLS &amp; Twitter"
-msgstr "YOURLS &amp; Twitter"
-
-#: admin/tools.php:278
-msgid "YOURLS &amp; Tumblr"
-msgstr "YOURLS &amp; Tumblr"
-
-#: admin/tools.php:285
-msgid "Prefix-n-Shorten"
-msgstr "Префикс и сокращение"
-
-#: admin/tools.php:287
-#, php-format
-msgid ""
-"When viewing a page, you can also prefix its full URL: just head to your "
-"browser's address bar, add \"<span>%s</span>\" to the beginning of the "
-"current URL (right before its 'http://' part) and hit enter."
-msgstr ""
-"При просмотре страницы вы также можете добавить префикс к ее URL: просто "
-"перейдите в адресную строку браузера, добавьте \"<span>%s</span>\" в начало "
-"текущего URL (прямо перед 'http://') и нажмите Enter."
-
-#: admin/tools.php:290
-msgid ""
-"Note: this will probably not work if your web server is running on Windows"
-msgstr ""
-"Примечание: это, вероятно, не сработает, если ваш веб-сервер работает на "
-"Windows"
-
-#: admin/tools.php:292
-msgid " (which seems to be the case here)"
-msgstr " (что, похоже, так и есть)"
-
-#: admin/tools.php:298
-msgid "Secure passwordless API call"
-msgstr "Безопасный вызов API без пароля"
-
-#: admin/tools.php:301
-msgid ""
-"YOURLS allows API calls the old fashioned way, using <tt>username</tt> and "
-"<tt>password</tt> parameters."
-msgstr ""
-"YOURLS позволяет вызывать API по старинке, используя параметры <tt>username</"
-"tt> и <tt>password</tt>."
-
-#: admin/tools.php:303
-msgid ""
-"If you're worried about sending your credentials into the wild, you can also "
-"make API calls without using your login or your password, using a secret "
-"signature token."
-msgstr ""
-"Если вы беспокоитесь об отправке своих учетных данных во внешний мир, вы "
-"также можете делать вызовы API без использования логина или пароля, "
-"используя секретный токен подписи."
-
-#: admin/tools.php:306
-#, php-format
-msgid "Your secret signature token: <strong><code>%s</code></strong>"
-msgstr "Ваш секретный токен подписи: <strong><code>%s</code></strong>"
-
-#: admin/tools.php:307
-msgid "(It's a secret. Keep it secret) "
-msgstr "(Это секрет. Держите его в секрете) "
-
-#: admin/tools.php:309
-msgid ""
-"This signature token can only be used with the API, not with the admin "
-"interface."
-msgstr ""
-"Этот токен подписи можно использовать только с API, но не с интерфейсом "
-"администратора."
-
-#: admin/tools.php:312
-msgid "Usage of the signature token"
-msgstr "Использование токена подписи"
-
-#: admin/tools.php:313
-msgid "Simply use parameter <tt>signature</tt> in your API requests. Example:"
-msgstr ""
-"Просто используйте параметр <tt>signature</tt> в ваших запросах к API. "
-"Пример:"
-
-#: admin/tools.php:317
-msgid "Usage of a time limited signature token"
-msgstr "Использование токена подписи с ограниченным временем"
-
-#: admin/tools.php:320 admin/tools.php:322
-msgid "actual value:"
-msgstr "текущее значение:"
-
-#: admin/tools.php:325
-msgid ""
-"Now use parameters <tt>signature</tt> and <tt>timestamp</tt> in your API "
-"requests. Example:"
-msgstr ""
-"Теперь используйте параметры <tt>signature</tt> и <tt>timestamp</tt> в ваших "
-"запросах к API. Пример:"
-
-#: admin/tools.php:327
-msgid "Actual values:"
-msgstr "Текущие значения:"
-
-#: admin/tools.php:329
-#, php-format
-msgid "This URL would be valid for only %s seconds"
-msgstr "Этот URL будет действителен только %s секунд"
-
-#: admin/tools.php:333
-#, php-format
-msgid "See the <a href=\"%s\">Passwordless API</a> page on the wiki."
-msgstr "См. страницу <a href=\"%s\">API без пароля</a> на wiki."
-
-#: admin/tools.php:334
-#, php-format
-msgid "See the <a href=\"%s\">API documentation</a> for more"
-msgstr ""
-"См. <a href=\"%s\">документацию по API</a> для получения дополнительной "
-"информации"
-
-#: admin/upgrade.php:7 admin/upgrade.php:11
-msgid "Upgrade YOURLS"
-msgstr "Обновить YOURLS"
-
-#: admin/upgrade.php:16
-#, php-format
-msgid "Upgrade not required. Go <a href=\"%s\">back to play</a>!"
-msgstr "Обновление не требуется. <a href=\"%s\">Возвращайтесь к работе</a>!"
-
-#: admin/upgrade.php:49
-msgid "Your current installation needs to be upgraded."
-msgstr "Вашу текущую установку необходимо обновить."
-
-#: admin/upgrade.php:50
-msgid ""
-"Please, pretty please, it is recommended that you <strong>backup</strong> "
-"your database<br/>(you should do this regularly anyway)"
-msgstr ""
-"Пожалуйста, очень-очень рекомендуется <strong>сделать резервную копию</"
-"strong> вашей базы данных<br/>(в любом случае, это следует делать регулярно)"
-
-#: admin/upgrade.php:51
-msgid ""
-"Nothing awful <em>should</em> happen, but this doesn't mean it <em>won't</"
-"em> happen, right? ;)"
-msgstr ""
-"Ничего ужасного <em>не должно</em> случиться, но это не значит, что <em>не "
-"случится</em>, верно? ;)"
-
-#: admin/upgrade.php:52
-msgid ""
-"On every step, if <span class='error'>something goes wrong</span>, you'll "
-"see a message and hopefully a way to fix."
-msgstr ""
-"На каждом шаге, если <span class='error'>что-то пойдет не так</span>, вы "
-"увидите сообщение и, надеюсь, способ это исправить."
-
-#: admin/upgrade.php:53
-msgid ""
-"If everything goes too fast and you cannot read, <span "
-"class=\"success\">good for you</span>, let it go :)"
-msgstr ""
-"Если все происходит слишком быстро, и вы не успеваете прочитать, <span "
-"class=\"success\">тем лучше для вас</span>, просто позвольте этому "
-"случиться :)"
-
-#: admin/upgrade.php:54
-msgid "Once you are ready, press \"Upgrade\" !"
-msgstr "Когда будете готовы, нажмите \"Обновить\" !"
-
-#: admin/upgrade.php:63
-msgid "Upgrade"
-msgstr "Обновить"
-
-#: admin/upgrade.php:75
-msgid "Your installation is now up to date ! "
-msgstr "Ваша установка обновлена! "
-
-#: admin/upgrade.php:76
-#, php-format
-msgid "Go back to <a href=\"%s\">the admin interface</a>"
-msgstr "Вернуться в <a href=\"%s\">панель администратора</a>"
-
-#: includes/Database/YDB.php:168
-msgid "Incorrect DB config, or could not connect to DB"
-msgstr "Неверная конфигурация БД, или не удалось подключиться к БД"
-
-#: includes/Database/YDB.php:170 includes/class-mysql.php:17
-msgid "Fatal error"
-msgstr "Фатальная ошибка"
 
 #: includes/Views/AdminParams.php:60 includes/functions-html.php:246
 msgid "All fields"
@@ -567,26 +105,6 @@ msgstr "Дата"
 msgid "Clicks"
 msgstr "Клики"
 
-#: includes/auth.php:53
-#, php-format
-msgid "Could not auto-encrypt passwords. Error was: \"%s\"."
-msgstr "Не удалось автоматически зашифровать пароли. Ошибка: \"%s\"."
-
-#: includes/auth.php:55
-#, php-format
-msgid "<a href=\"%s\">Get help</a>."
-msgstr "<a href=\"%s\">Получить помощь</a>."
-
-#: includes/auth.php:57
-#, php-format
-msgid "<a href=\"%s\">Click here</a> to dismiss this message for one week."
-msgstr ""
-"<a href=\"%s\">Нажмите здесь</a>, чтобы скрыть это сообщение на одну неделю."
-
-#: includes/class-mysql.php:17
-msgid "Incorrect DB config, please refer to documentation"
-msgstr "Неверная конфигурация БД, пожалуйста, обратитесь к документации"
-
 #: includes/functions-auth.php:42
 msgid "Logged out successfully"
 msgstr "Вы успешно вышли"
@@ -611,7 +129,7 @@ msgstr "Несанкционированное действие или ссыл�
 #, php-format
 msgid "1 query"
 msgid_plural "%s queries"
-msgstr[0] "1 запрос"
+msgstr[0] "%s запрос"
 msgstr[1] "%s запроса"
 msgstr[2] "%s запросов"
 
@@ -630,7 +148,7 @@ msgstr "Свой короткий URL"
 
 #: includes/functions-html.php:196
 msgid "Optional "
-msgstr "Необязательно"
+msgstr "Необязательно "
 
 #: includes/functions-html.php:199
 msgid "Shorten The URL"
@@ -746,7 +264,7 @@ msgstr "Отмена"
 #, php-format
 msgid "1 page"
 msgid_plural "%s pages"
-msgstr[0] "1 страница"
+msgstr[0] "%s страница"
 msgstr[1] "%s страницы"
 msgstr[2] "%s страниц"
 
@@ -897,41 +415,6 @@ msgstr "Сегодня"
 #: includes/functions-html.php:963 includes/functions-html.php:968
 msgid "Close"
 msgstr "Закрыть"
-
-#: includes/functions-html.php:987
-#, php-format
-msgid "<a href=\"%s\">YOURLS version %s</a> is available. Please update!"
-msgstr "Доступна <a href=\"%s\">YOURLS версии %s</a>. Пожалуйста, обновитесь!"
-
-#: includes/functions-html.php:1002
-msgid "Drag to your toolbar!"
-msgstr "Перетащите на панель инструментов!"
-
-#: includes/functions-install.php:263
-#, php-format
-msgid "Table '%s' created."
-msgstr "Таблица '%s' создана."
-
-#: includes/functions-install.php:265
-#, php-format
-msgid "Error creating table '%s'."
-msgstr "Ошибка создания таблицы '%s'."
-
-#: includes/functions-install.php:271
-msgid "Could not initialize options"
-msgstr "Не удалось инициализировать настройки"
-
-#: includes/functions-install.php:275
-msgid "Could not insert sample short URLs"
-msgstr "Не удалось вставить примеры коротких URL"
-
-#: includes/functions-install.php:279
-msgid "YOURLS tables successfully created."
-msgstr "Таблицы YOURLS успешно созданы."
-
-#: includes/functions-install.php:281
-msgid "Error creating YOURLS tables."
-msgstr "Ошибка создания таблиц YOURLS."
 
 #: includes/functions-l10n.php:770 includes/functions-l10n.php:780
 #: includes/functions-l10n.php:793
@@ -1120,6 +603,10 @@ msgstr "Ноя"
 msgid "Dec_December_abbreviation"
 msgstr "Дек"
 
+#: includes/functions-l10n.php:835
+msgid "am"
+msgstr "am"
+
 #: includes/functions-l10n.php:836
 msgid "pm"
 msgstr "pm"
@@ -1144,60 +631,6 @@ msgstr ","
 msgid "ltr"
 msgstr "ltr"
 
-#: includes/functions-plugins.php:612
-msgid "Could not find and deactivate plugin :"
-msgid_plural "Could not find and deactivate plugins :"
-msgstr[0] "Не удалось найти и деактивировать плагин:"
-msgstr[1] "Не удалось найти и деактивировать плагины:"
-msgstr[2] "Не удалось найти и деактивировать плагины:"
-
-#: includes/functions-plugins.php:652
-msgid "Not a valid plugin file"
-msgstr "Неверный файл плагина"
-
-#: includes/functions-plugins.php:658
-msgid "Plugin already activated"
-msgstr "Плагин уже активирован"
-
-#: includes/functions-plugins.php:664
-#, php-format
-msgid "Plugin generated unexpected output. Error was: <br/><pre>%s</pre>"
-msgstr "Плагин сгенерировал неожиданный вывод. Ошибка: <br/><pre>%s</pre>"
-
-#: includes/functions-plugins.php:688
-msgid "Plugin not active"
-msgstr "Плагин не активирован"
-
-#: includes/functions-plugins.php:697
-#, php-format
-msgid "Loading %s generated unexpected output. Error was: <br/><pre>%s</pre>"
-msgstr ""
-"Загрузка %s сгенерировала неожиданный вывод. Ошибка: <br/><pre>%s</pre>"
-
-#: includes/functions-plugins.php:788
-msgid "Invalid link"
-msgstr "Неверная ссылка"
-
-#: includes/functions-plugins.php:788
-msgid ""
-"This page does not exist. Maybe a plugin you thought was activated is "
-"inactive?"
-msgstr ""
-"Эта страница не существует. Возможно, плагин, который вы считали "
-"активированным, неактивен?"
-
-#: includes/functions-plugins.php:794
-msgid "Invalid code"
-msgstr "Неверный код"
-
-#: includes/functions-plugins.php:794
-msgid ""
-"This page cannot be displayed because the displaying function is not "
-"callable."
-msgstr ""
-"Эта страница не может быть отображена, так как функция отображения "
-"недоступна."
-
 #: includes/functions-shorturls.php:56
 msgid "Missing or malformed URL"
 msgstr "Отсутствует или поврежден URL"
@@ -1214,24 +647,24 @@ msgstr "%s уже существует в базе (короткий URL: %s)"
 #: includes/functions-shorturls.php:112
 #, php-format
 msgid "Short URL %s already exists in database or is reserved"
-msgstr "Короткий URL %s уже существует в базе или зарезервирован"
+msgstr "Короткий URL %s уже существует или зарезервирован"
 
 #: includes/functions-shorturls.php:142
 #, php-format
 msgid "%s added to database"
-msgstr "%s добавлен в базу данных"
+msgstr "%s добавлен"
 
 #: includes/functions-shorturls.php:151
 msgid "Error saving url to database"
-msgstr "Ошибка сохранения URL в базу данных"
+msgstr "Ошибка сохранения URL"
 
 #: includes/functions-shorturls.php:332
 msgid "Long URL or Short URL cannot be blank"
-msgstr "Длинный URL или Короткий URL не могут быть пустыми"
+msgstr "Длинный или короткий URL не могут быть пустыми"
 
 #: includes/functions-shorturls.php:368
 msgid "Link updated in database"
-msgstr "Ссылка обновлена в базе данных"
+msgstr "Ссылка обновлена"
 
 #: includes/functions-shorturls.php:371
 #, php-format
@@ -1328,7 +761,7 @@ msgstr "За 30 дней"
 
 #: yourls-infos.php:265 yourls-infos.php:308
 msgid "All time"
-msgstr "За все время"
+msgstr "За всё время"
 
 #: yourls-infos.php:317
 #, php-format
@@ -1343,8 +776,8 @@ msgstr "История переходов"
 #, php-format
 msgid "about 1 day ago"
 msgid_plural "about %s days ago"
-msgstr[0] "около 1 дня назад"
-msgstr[1] "около %s дня назад"
+msgstr[0] "около %s дня назад"
+msgstr[1] "около %s дней назад"
 msgstr[2] "около %s дней назад"
 
 #: yourls-infos.php:350
@@ -1395,7 +828,7 @@ msgstr "Год %s"
 #, php-format
 msgid "1 hit"
 msgid_plural "%s hits"
-msgstr[0] "1 переход"
+msgstr[0] "%s переход"
 msgstr[1] "%s перехода"
 msgstr[2] "%s переходов"
 
